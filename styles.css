@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #aecfe2;
+    color: #599ec6;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #0f1112;
+    
+     padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+   
+}
+
+section h2 {
+    color: #4eade4;
+}
+section:hover{
+    background-color: transparent; 
+    background-image: url('Image/Youtube.png'); /* Set the image URL */
+    background-size: cover; 
+    background-position: center;
+}
+
+
+
+
+section p {
+    color: #034c60;
+}
+
+a {
+    color: #599ec6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
